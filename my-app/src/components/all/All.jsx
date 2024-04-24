@@ -3,26 +3,30 @@ import './All.css'
 import Navbar from '../navbar/Navbar';
 
 import Nav from '../navbar/Nav';
+import { Link } from 'react-router-dom';
+// import Dropdown from '../all/Dropdown';
+// <Dropdown/>
 
 const Men = () => {
   return (
     <div>
       <Navbar/>
      <Nav/>
+  
       
         <div className="all">
           <div className="all-shoes">
-          <button className='product-button'>SHOES</button>
+          <Link to={"/category"}><button className='product-button'>SHOES</button></Link>
 
             <ul>
-              <li><a href="">Everyday Sneakers</a></li>
+              <li><a href="category">Everyday Sneakers</a></li>
               <li><a href="">Active Shoes</a></li>
               <li><a href="">Water repellent Sneakers</a></li>
               <li><a href="">slip ons</a> </li>
               <li><a href="">Hiking</a></li>
               <li><a href="">High tops</a></li>
               <li><a href="">Sales</a></li>
-              <li><a href="">shop All</a></li>
+              <li><a href="/category">shop All</a></li>
               
             </ul>
           </div>
@@ -40,7 +44,7 @@ const Men = () => {
             </ul>
           </div>
           <div className="apparel">
-          <button className='product-button'>APPARELS AND MORE</button>
+          <Link to={"/category"}><button className='product-button'>APPARELS AND MORE</button></Link>
              
             <ul>
             <li><a href="">Everyday Sneakers</a></li>
@@ -50,7 +54,7 @@ const Men = () => {
               <li><a href="">Hiking</a></li>
               <li><a href="">High tops</a></li>
               <li><a href="">Sales</a></li>
-              <li><a href="">Sales</a></li>
+              
             </ul>
           </div>
           <div className="featured">

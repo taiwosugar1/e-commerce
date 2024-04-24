@@ -22,7 +22,8 @@
 .navbar header nav ul li a{
     color: white;
     font-size: 12px;
-
+    width: 100px;
+    margin: 5px;
 }
 span{
  

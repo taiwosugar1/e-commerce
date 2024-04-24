@@ -7,8 +7,9 @@
     
 }
 .category-parent h1{
-    display: flex;
-    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(54, 50, 50);
 }
 
 .category-button{
@@ -47,6 +48,7 @@
     padding-left: 20px;
     top: 0;
     left: 0;
+    height: 500px;
     position: sticky;
     flex-direction: column;
     background: grey;

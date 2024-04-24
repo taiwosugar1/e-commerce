@@ -1,6 +1,7 @@
 import React from 'react';
 import './Hero.css'
 import { Link } from 'react-router-dom';
+import Dropdown from '../all/Dropdown';
 
 const Hero = () => {
   return (
@@ -11,6 +12,10 @@ const Hero = () => {
                <Link to={'/men'}><button>Men's Shoes</button></Link>
                <Link to={'/women'}><button>women's Shoes</button></Link>
                <Link><button>New Arrivals</button></Link>
+               <div >
+                 <Dropdown/>
+               </div>
+              
             </div>
             <div className="hero-left">
                 <h1>New: Tree Runner Go</h1>
@@ -19,6 +24,7 @@ const Hero = () => {
                 <div >
               <Link to={'/men'}><button>SHOP MEN</button></Link>
        <Link to={'/women'}><button>SHOP WOMEN</button></Link>
+     
                </div>
 
             </div>

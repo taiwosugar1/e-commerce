@@ -1,9 +1,6 @@
 .men{
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .men-shoes{
@@ -11,20 +8,57 @@
     flex-direction: column;
 }
 .men-shoes img{
-    width: 60px;
-    height: 60px;
-    background: #000;
+    width: 80px;
+    height: 80px;
     object-fit: cover;
     margin: 10px 30px;
 }
+.single-men{
+    display: flex;
+}
 .single-men img{
-    width: 550px;
-    height: 550px;
+    width: 650px;
+    height: 600px;
     object-fit: cover;
 }
 .men-details{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
     flex-direction: column;
+    line-height: 10px;
+    margin-left: 80px;
+    
+}
+.men-details p{
+    margin-left: 0px;
+}
+.men-details p i{
+    margin-left: 15px;
+    padding: 2px 5px;
+    background: rgb(221, 215, 215);
+}
+.men-details-ul a{
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+.men-details-ul a:hover{
+    text-decoration: underline;
+}
+.round{
+    display: flex;
+
+}
+.round img{
+    width: 40px;
+    height: 40px;
+    background: grey;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.single-men .men-round{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }

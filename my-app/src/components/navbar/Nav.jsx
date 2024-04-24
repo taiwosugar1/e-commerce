@@ -4,6 +4,7 @@ import { IoSearch } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";
 import { LuHelpCircle } from "react-icons/lu";
 import { BsCartCheck } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
 const nav = () => {
   return (
@@ -20,7 +21,7 @@ const nav = () => {
             <li><a href="/category">SALES</a></li>
           </ul>
           <div className="logo">
-            <h2>multibrand</h2>
+           <Link to={"http://instagram.com/multibrandprints"}><h2>multibrand</h2></Link> 
           </div>
           <ul>
             <li><a href="/all/sustainability">SUSTAINABILITY</a></li>
