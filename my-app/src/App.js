@@ -11,6 +11,7 @@ import All from './components/all/All';
 import {  createBrowserRouter, Outlet, RouterProvider  } from "react-router-dom";
 import './App.css';
 import Men from './components/men/Men';
+import SearchBar from './components/search/SearchBar';
 import Women from './components/women/Women';
 import Category from './components/category/Category';
 
@@ -64,6 +65,10 @@ function App() {
       element: <Category/>
     }, 
    
+    {
+      path: '/searchbar',
+      element: <SearchBar/>
+    }, 
    
     {
       path:"/men",

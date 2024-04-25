@@ -1,0 +1,36 @@
+.detailsbtn{
+   border: none;
+   font-weight: 600;
+   background: none;
+   cursor: pointer;
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height: 10px;
+}
+.detailsbtn:hover{
+    color: white;
+    background: #000;
+}
+
+.all-details-div{
+  justify-content: start;
+  align-items: start;
+  display: flex;
+  line-height: 10px;
+}
+.all-details-div h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+.all-details-div p{
+    font-size: 16px;
+    font-weight: 200;
+    margin-left: 10px;
+}
+.all-details-div p a{
+    margin-left: 20px;
+}
+

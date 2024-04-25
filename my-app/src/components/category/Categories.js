@@ -345,11 +345,12 @@ const Categories = [
     },
   
     // shoebody variation (for Men shoes)...
+ 
     {
-      id: 42,
+      id: 427,
       title: "Mens Black Shirt",
-      price: 213,
-      image: 'https://media.istockphoto.com/id/1391533360/photo/red-sneakers-shoes.jpg?s=612x612&w=0&k=20&c=FkMZ0ys9M6bpUIRmcwbVsd49F4D6cOvSw8XlokskU48=',
+      price: 165,
+      image: 'https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "men1"
     },
@@ -386,10 +387,10 @@ const Categories = [
       category: "men5"
     },
     {
-      id: 427,
+      id: 42,
       title: "Mens Black Shirt",
-      price: 165,
-      image: 'https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600',
+      price: 213,
+      image: 'https://media.istockphoto.com/id/1391533360/photo/red-sneakers-shoes.jpg?s=612x612&w=0&k=20&c=FkMZ0ys9M6bpUIRmcwbVsd49F4D6cOvSw8XlokskU48=',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "men6"
     },

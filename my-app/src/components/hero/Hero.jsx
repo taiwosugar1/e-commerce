@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css'
 import { Link } from 'react-router-dom';
-import Dropdown from '../all/Dropdown';
+import Dropdown from '../dropdown/Dropdown';
 
 const Hero = () => {
   return (
