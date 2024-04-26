@@ -1,18 +1,12 @@
-/* Basic styling for the search container */
-.product-search-container {
-    position: relative;
-    width: 300px;
-    margin: 0 auto; 
-  }
-  
-  /* Styling for the search input */
+
+
+
   .product-search-input {
-    top: 10px;
-    right: 180px;
     background: rgb(32, 57, 57);
     color: white;
+    top: 200px;
     position: absolute;
-    width: 220px;
+    width: 800px;
     padding: 10px;
     z-index: 10;
     border-radius: 30px;
@@ -22,11 +16,9 @@
   }
   /* Styling for the search button */
   .product-search-button {
-    position: relative;
-/* Adjust color as needed */
-    color: black;
+    color: yellow;
     margin:  10px;
-    background: none;
+    background: #007bff;
     cursor: pointer;
     font-size: 23px;
     font-weight: 100;
@@ -40,16 +32,7 @@
   
   .results-of-search{
     background: white;
+    margin-top: 10px;
   }
-  .fasearch{
-    position: relative;
-    z-index: 1200;
-    color: yellow;
-    font-size: 30px;
-  }
-  .sb{
-    width: 40px;height: 40px;background: white;
-    cursor: pointer;
-    position: relative;
-
-  }
+ 
+  

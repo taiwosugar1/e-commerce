@@ -1,45 +1,47 @@
-import React, { useState } from 'react';
-import { IoSearch } from "react-icons/io5";
+import { useState } from 'react';
+import { IoSearch } from 'react-icons/io5';
 import './SearchBar.css';
-
-
+import Nav from '../navbar/Nav';
 
 const SearchBar = () => {
- 
-  const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
+  const [searchResult, setSearchResult] = useState([]);
   
 
-  const handleSearchClick = () => {
-    setIsSearchOpen(!isSearchOpen);
+  // Function to handle search
+  const handleSearch = () => {
+    // Your logic to fetch search results based on searchTerm
+    // For demonstration, let's assume searchResult is an array of search results
+    const searchResult = []; // Placeholder for search result
+    setSearchResult(searchResult);
   };
 
-  const handleInputChange = (event) => {
-    setSearchTerm(event.target.value);
+  // Function to handle search when the enter key is pressed
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
   };
-
-  // Filter data based on search term
- 
-  
- 
 
   return (
-    <div>
-      {/* Search icon */}
-      < IoSearch className="product-search-button" onClick={handleSearchClick}/>
-
-      {/* Search bar */}
-      {isSearchOpen && (
-        <input
-          className='product-search-input'
-          type="text"
-          placeholder="Search..."
-          value={searchTerm}
-          onChange={handleInputChange}
-        />
-      )}
-
-    
+    <div className="search">
+      <Nav />
+      <input
+        className="product-search-input"
+        type="text"
+        placeholder="Search..."
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        onKeyPress={handleKeyPress}
+      />
+      <button className="product-search-button" onClick={handleSearch}>
+        <IoSearch />
+      </button>
+      <div className="search-result">
+        {searchResult.map((item, index) => (
+          <div key={index}>{/* Render your search result item here */}</div>
+        ))}
+      </div>
     </div>
   );
 };

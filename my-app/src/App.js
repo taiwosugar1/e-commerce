@@ -53,7 +53,7 @@ function App() {
     
    
     {
-      path: '/contact',
+      path: '/active-shoes',
       element: <Contact/>
     },
     {
