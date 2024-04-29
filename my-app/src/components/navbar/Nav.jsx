@@ -22,7 +22,7 @@ const nav = () => {
             <li><a href="/category">SALES</a></li>
           </ul>
           <div className="logo">
-             <a href="/http://instagram.com/multibrandprints">multibrand</a>
+             <a href="https://instagram.com/multibrandprints">multibrand</a>
           </div>
           <ul>
             <li><a href="/all/sustainability">SUSTAINABILITY</a></li>

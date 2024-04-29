@@ -93,7 +93,7 @@ const Men = () => {
             </div>
             <button className='cart-button'>ADD TO CART $78 <span>$98</span></button>
             <div className="cart2">
-            <p>or 4 interest-free payments of $19.50 with <a href="/http://www.instagram.com/multibrandprints">multibrand</a>@+</p>
+            <p>or 4 interest-free payments of $19.50 with <a href="http://www.instagram.com/multibrandprints">multibrand</a>@+</p>
             </div>
          
           </div>
