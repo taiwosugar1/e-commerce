@@ -1,8 +1,5 @@
 import React from 'react';
 import '../all/All.css'
-import Navbar from '../navbar/Navbar';
-
-import Nav from '../navbar/Nav';
 import { Link } from 'react-router-dom';
 // import Dropdown from '../all/Dropdown';
 // <Dropdown/>
@@ -10,8 +7,7 @@ import { Link } from 'react-router-dom';
 const Men = () => {
   return (
     <div>
-      <Navbar/>
-     <Nav/>
+     
   
       
         <div className="all">

@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import './Men.css';
-import Navbar from '../navbar/Navbar';
-import Nav from '../navbar/Nav';
 import Categories from '../category/Categories';
 import Details from '../dropdown/Details';
 import Sustainability from '../dropdown/Sustainability';
@@ -27,8 +25,7 @@ const Men = () => {
 
   return (
     <>
-      <Navbar />
-      <Nav />
+     
       <div className='men'>
         <div className="men-shoes">
           {/* Clicking on each image will change the category */}

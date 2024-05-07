@@ -11,7 +11,7 @@ const Hero = () => {
                <h2>FEATURED</h2>
                <Link to={'/men'}><button>Men's Shoes</button></Link>
                <Link to={'/women'}><button>women's Shoes</button></Link>
-               <Link><button>New Arrivals</button></Link>
+               <Link to={"/newArrival"}><button>New Arrivals</button></Link>
                <div >
                  <Dropdown/>
                </div>

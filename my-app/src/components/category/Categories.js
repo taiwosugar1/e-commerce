@@ -3,7 +3,7 @@ const Categories = [
       id: 1,
       title: "Mens Nike Shoe",
       price: 213,
-      image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8fDA%3D',
+      image: 'https://images.pexels.com/photos/6748233/pexels-photo-6748233.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "men"
     },
@@ -11,7 +11,7 @@ const Categories = [
       id: 2,
       title: "Women Nike Shoe",
       price: 113,
-      image: 'https://w7.pngwing.com/pngs/859/576/png-transparent-nike-free-sneakers-shoe-running-shoes-for-women-cartoon-white-outdoor-shoe-converse-thumbnail.png',
+      image: 'https://images.pexels.com/photos/11891649/pexels-photo-11891649.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "women"
     },
@@ -19,8 +19,7 @@ const Categories = [
       id: 3,
       title: "Children Black Shirt",
       price: 103,
-      image: '../images/men-cloth.jpg',
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      image: "https://images.pexels.com/photos/12714051/pexels-photo-12714051.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       category: "children"
     },
     {
@@ -35,7 +34,7 @@ const Categories = [
       id: 5,
       title: "Women White Shirt",
       price: 100,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/9558752/pexels-photo-9558752.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "women"
     },
@@ -43,7 +42,7 @@ const Categories = [
       id: 6,
       title: "Children White Shirt",
       price: 90,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/4256552/pexels-photo-4256552.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "children"
     },
@@ -54,7 +53,7 @@ const Categories = [
       id: 7,
       title: "Mens Black Shoes",
       price: 250,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "men"
     },
@@ -62,7 +61,7 @@ const Categories = [
       id: 8,
       title: "Women Black Shoes",
       price: 180,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/8878380/pexels-photo-8878380.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "women"
     },
@@ -70,7 +69,7 @@ const Categories = [
       id:  9,
       title: "Children Black Shoes",
       price: 120,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/11163544/pexels-photo-11163544.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "children"
     },
@@ -78,72 +77,72 @@ const Categories = [
       id: 10,
       title: "Mens Black Shirt",
       price: 213,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/9558577/pexels-photo-9558577.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "black"
     },
     {
       id: 11,
-      title: "Women Black Shirt",
+      title: "Women fashion clothes",
       price: 113,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/9397497/pexels-photo-9397497.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: ["women"]
     },
     {
       id: 12,
-      title: "Children Black Shirt",
+      title: "Girl Child Fashion Clothes",
       price: 103,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/2607045/pexels-photo-2607045.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "children"
     },
     {
       id: 13,
-      title: "Mens White Shirt",
+      title: "Mens suits",
       price: 150,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/1321943/pexels-photo-1321943.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "men"
     },
     {
       id: 14,
-      title: "Women White Shirt",
+      title: "Women Pink Shirt",
       price: 100,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/13069092/pexels-photo-13069092.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "women"
     },
     {
       id: 15,
-      title: "Children White Shirt",
+      title: "Children Up and Down Hoodie",
       price: 90,
-      image: '../images/men-cloth.jpg',
+      image: 'https://images.pexels.com/photos/1765423/pexels-photo-1765423.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category:  ["children", "white"]
     },
     
     {
       id: 16,
-      title: "Mens Black Shoes",
+      title: "Mens Black Shirts",
       price: 250,
-      image: '../Assets/product16.jpg',
+      image: 'https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
-      category:  ["men", "white"]
+      category:  ["men", "black"]
     },
     {
       id: 17,
-      title: "Women Black Shoes",
+      title: "Women white hoodie",
       price: 180,
-      image: '../Assets/product17.jpg',
+      image: 'https://images.pexels.com/photos/878358/pexels-photo-878358.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
-      category: "black"
+      category: "white"
     },
     {
       id: 18,
       title: "Children Black Shoes",
       price: 120,
-      image: '../Assets/product18.jpg',
+      image: 'https://images.pexels.com/photos/3933888/pexels-photo-3933888.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "children"
     },
@@ -151,15 +150,14 @@ const Categories = [
       id: 19,
       title: "Mens Black Shirt",
       price: 213,
-      image: 'https://images.pexels.com/photos/6481918/pexels-photo-6481918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      image: 'https://images.pexels.com/photos/3662357/pexels-photo-3662357.jpeg?auto=compress&cs=tinysrgb&w=600',
       category: "men"
     },
     {
       id: 20,
-      title: "Women Black Shirt",
+      title: "Women up and down",
       price: 113,
-      image: '../Assets/product2.jpg',
+      image: 'https://images.pexels.com/photos/1631181/pexels-photo-1631181.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "women"
     },
@@ -167,23 +165,23 @@ const Categories = [
       id: 21,
       title: "Children Black Shirt",
       price: 103,
-      image: '../Assets/product3.jpg',
+      image: 'https://images.pexels.com/photos/1493108/pexels-photo-1493108.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "children"
     },
     {
       id: 22,
-      title: "Mens White Shirt",
+      title: "Mens Red Hoodie",
       price: 150,
-      image: '../Assets/product4.jpg',
+      image: 'https://images.pexels.com/photos/2880094/pexels-photo-2880094.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "red"
     },
     {
       id: 23,
-      title: "Women White Shirt",
+      title: "Women White V-neck T-Shirt",
       price: 100,
-      image: '../Assets/product5.jpg',
+      image: 'https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: ["women","white"]
     },
@@ -191,7 +189,7 @@ const Categories = [
       id: 24,
       title: "Children White Shirt",
       price: 90,
-      image: '../Assets/product6.jpg',
+      image: 'https://images.pexels.com/photos/5560035/pexels-photo-5560035.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "white"
     },
@@ -202,7 +200,7 @@ const Categories = [
       id: 25,
       title: "Mens Black Shoes",
       price: 250,
-      image: '../Assets/product16.jpg',
+      image: 'https://images.pexels.com/photos/1478442/pexels-photo-1478442.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "men"
     },
@@ -210,23 +208,23 @@ const Categories = [
       id: 26,
       title: "Women Black Shoes",
       price: 180,
-      image: '../Assets/product17.jpg',
+      image: 'https://images.pexels.com/photos/12068694/pexels-photo-12068694.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "women"
     },
     {
       id:  27,
-      title: "Children Black Shoes",
+      title: "Children Fashion Shoes",
       price: 120,
-      image: '../Assets/product18.jpg',
+      image: 'https://images.pexels.com/photos/2300334/pexels-photo-2300334.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "children"
     },
     {
       id: 28,
-      title: "women shoe",
+      title: "shoe for Fashion",
       price: 213,
-      image: '../images/women-shoe.jpg',
+      image: 'https://images.pexels.com/photos/40662/shoes-footwear-hiking-shoes-walking-40662.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "shoes"
     },
@@ -234,7 +232,7 @@ const Categories = [
       id: 29,
       title: "Women shoe",
       price: 113,
-      image: '../images/women-shoe2.jpg',
+      image: 'https://images.pexels.com/photos/2285500/pexels-photo-2285500.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "shoes"
     },
@@ -242,7 +240,7 @@ const Categories = [
       id: 30,
       title: "Men's shoe",
       price: 103,
-      image: '../images/men-shoe7.jpg',
+      image: 'https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "shoes"
     },
@@ -250,7 +248,7 @@ const Categories = [
       id: 31,
       title: "women's shoe",
       price: 150,
-      image: '../images/women-shoe1.jpg',
+      image: 'https://images.pexels.com/photos/313705/pexels-photo-313705.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "shoes"
     },
@@ -258,7 +256,7 @@ const Categories = [
       id: 32,
       title: "men's shoe",
       price: 100,
-      image: '../images/men-shoe5.jpg',
+      image: 'https://images.pexels.com/photos/1159670/pexels-photo-1159670.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "shoes"
     },
@@ -266,16 +264,16 @@ const Categories = [
       id: 33,
       title: "Men's shoe",
       price: 90,
-      image: '../images/men-shoe4.jpg',
+      image: 'https://images.pexels.com/photos/1102777/pexels-photo-1102777.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category:  "shoes"
     },
     
     {
       id: 34,
-      title: "Mens Black Shoes",
+      title: "Mens Shoes",
       price: 250,
-      image: '../images/men-shoe3.jpg',
+      image: 'https://images.pexels.com/photos/186035/pexels-photo-186035.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category:  "shoes"
     },
@@ -297,11 +295,11 @@ const Categories = [
     },
     {
       id: 36,
-      title: "Children Black Shoes",
+      title: "Women Black Shoes",
       price: 120,
-      image: '../Assets/product18.jpg',
+      image: 'https://images.pexels.com/photos/1040384/pexels-photo-1040384.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
-      category: "children"
+      category: "women"
     },
     {
       id: 37,
@@ -331,7 +329,7 @@ const Categories = [
       id: 40,
       title: "men's shoe",
       price: 120,
-      image: '../images/men-shoe2.jpg',
+      image: 'https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "shoes"
     },
@@ -339,7 +337,7 @@ const Categories = [
       id: 41,
       title: " Men's shoe",
       price: 120,
-      image: '../images/men-shoe1.jpg',
+      image: 'https://images.pexels.com/photos/9853347/pexels-photo-9853347.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "shoes"
     },

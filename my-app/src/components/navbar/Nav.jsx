@@ -5,6 +5,7 @@ import { LuUser } from "react-icons/lu";
 import { LuHelpCircle } from "react-icons/lu";
 import { BsCartCheck } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+
 // import SearchBar from '../search/SearchBar';
 
 const nav = () => {
@@ -18,7 +19,7 @@ const nav = () => {
        <li><a href="/men">MEN</a></li>
             <li><a href="/women">WOMEN</a></li>
             <li><a href="/all">KIDS</a></li>
-            <li><a href="/all">SOCKS</a></li>
+            <li><a href="SearchBar">MARKETS</a></li>
             <li><a href="/category">SALES</a></li>
           </ul>
           <div className="logo">
@@ -31,7 +32,7 @@ const nav = () => {
             
           </ul>
           <div className='icons'>
-          <Link to={'/SearchBar'} > <IoSearch className='icon'/></Link>
+          <Link to={'/SearchBar'} ><IoSearch className='icon'/></Link>
           <LuUser className='icon'/>
           <LuHelpCircle className='icon' />
           <BsCartCheck  className='icon'/>

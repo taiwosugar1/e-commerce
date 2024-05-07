@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../men/Men.css';
-import Navbar from '../navbar/Navbar';
-import Nav from '../navbar/Nav';
+
 import Categories from '../category/Categories';
 import Details from '../dropdown/Details';
 import Sustainability from '../dropdown/Sustainability';
@@ -27,8 +26,7 @@ const Women = () => {
 
   return (
     <>
-      <Navbar />
-      <Nav />
+      
       <div className='men'>
         <div className="men-shoes">
           {/* Clicking on each image will change the category */}
@@ -56,7 +54,7 @@ const Women = () => {
               <a href="/all">Men's Shoes</a>/
               <a href="/shoe">Everyday's Sneakers</a>/
             </div>
-            <h1>Men's Tree Runner Go</h1>
+            <h1>Women's Tree Runner Go</h1>
             <p>$120  <i> FREE SHIPPING</i></p>
             <p>CLASSICS: Natural Black (Blizzard Sole)</p>
             <div className='round'>
@@ -93,7 +91,7 @@ const Women = () => {
             </div>
             <button className='cart-button'>ADD TO CART $78 <span>$98</span></button>
             <div className="cart2">
-            <p>or 4 interest-free payments of $19.50 with <a href="/http://www.instagram.com/multibrandprints">multibrand</a>@+</p>
+            <p>or 4 interest-free payments of $19.50 with <a href="https://www.instagram.com/multibrandprints">multibrand</a>@+</p>
             </div>
          
           </div>

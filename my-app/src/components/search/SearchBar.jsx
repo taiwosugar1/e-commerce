@@ -1,49 +1,70 @@
-import { useState } from 'react';
-import { IoSearch } from 'react-icons/io5';
-import './SearchBar.css';
-import Nav from '../navbar/Nav';
+import React, { useState } from "react";
+import "./SearchBar.css";
+import data from "../category/Categories";
 
-const SearchBar = () => {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [searchResult, setSearchResult] = useState([]);
+import { Link } from "react-router-dom";
+
+const Search = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [showAllProducts, setShowAllProducts] = useState(false);
   
 
-  // Function to handle search
-  const handleSearch = () => {
-    // Your logic to fetch search results based on searchTerm
-    // For demonstration, let's assume searchResult is an array of search results
-    const searchResult = []; // Placeholder for search result
-    setSearchResult(searchResult);
-  };
-
-  // Function to handle search when the enter key is pressed
-  const handleKeyPress = (e) => {
-    if (e.key === 'Enter') {
-      handleSearch();
-    }
-  };
-
   return (
-    <div className="search">
-      <Nav />
-      <input
-        className="product-search-input"
-        type="text"
-        placeholder="Search..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        onKeyPress={handleKeyPress}
-      />
-      <button className="product-search-button" onClick={handleSearch}>
-        <IoSearch />
-      </button>
-      <div className="search-result">
-        {searchResult.map((item, index) => (
-          <div key={index}>{/* Render your search result item here */}</div>
-        ))}
+    <>
+    
+      <div className="templateContainer">
+        <div className="searchInput_Container">
+        <button onClick={() => setShowAllProducts(true)}>Show All Products</button>
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search here..."
+            onChange={(event) => {
+              setSearchTerm(event.target.value);
+              setShowAllProducts(false); // Reset to hide all products on change
+            }}
+          />
+        </div>
+        <div className="template_Container">
+          {showAllProducts
+            ? data.map((val) => (
+                <div className="template" key={val.id}>
+                  <img src={val.image} alt="" />
+                  <h3>{val.title}</h3>
+                  <p className="details">{val.description}</p>
+                  <div className="row justify-content-between">
+                    <p className="price">${val.price}</p>
+                    <Link to={`/products/${val.id}`}><p>DETAILS &#8594;</p></Link>
+                  </div>
+                </div>
+              ))
+            : data
+                // eslint-disable-next-line array-callback-return
+                .filter((val) => {
+                  if (searchTerm === "") {
+                    return val;
+                  } else 
+                  if (
+                    val.title.toLowerCase().includes(searchTerm.toLowerCase())
+                  ) {
+                    return val;
+                  }
+                })
+                .map((val) => (
+                  <div className="template" key={val.id}>
+                    <Link>
+                      <img src={val.image} alt="" />
+                    </Link>
+                    <h3>{val.title}</h3>
+                    <p className="price">${val.price}</p>
+                    <Link to={`/products/${val.id}`}>DETAILS &#8594;</Link>
+                  </div>
+                ))}
+        </div>
+       
       </div>
-    </div>
+    </>
   );
 };
 
-export default SearchBar;
+export default Search;

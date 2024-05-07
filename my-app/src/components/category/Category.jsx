@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Category.css'
-import Nav from '../navbar/Nav';
+
 import Categories from './Categories';
 import { Link } from 'react-router-dom';
 // import Search from '../search/Search';
@@ -15,7 +15,7 @@ const Category = () => {
     }
   return (
     <div className='category-parent'>
-       <Nav/>
+
 
 
         
@@ -59,6 +59,7 @@ const Category = () => {
                         <p>Price: ${price}</p>
                         <p>{description}</p>
                         <a href="/">Buy now</a>
+                        <Link to={`/products/${id}`}>DETAILS &#8594;</Link>
                      </div>
                     </div>
                 </div>
