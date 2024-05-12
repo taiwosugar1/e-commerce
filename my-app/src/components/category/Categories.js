@@ -248,7 +248,7 @@ const Categories = [
       id: 31,
       title: "women's shoe",
       price: 150,
-      image: 'https://images.pexels.com/photos/313705/pexels-photo-313705.jpeg?auto=compress&cs=tinysrgb&w=600',
+      image: 'https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "shoes"
     },
@@ -459,9 +459,54 @@ const Categories = [
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "men-green"
     },
+
+    //women shoe category
+
+    {
+      id: 350,
+      title: "women's shoe",
+      price: 150,
+      image: 'https://images.pexels.com/photos/6046186/pexels-photo-6046186.jpeg?auto=compress&cs=tinysrgb&w=600',
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      category: "women1"
+    },
+    {
+      id: 351,
+      title: "women's shoe",
+      price: 150,
+      image: 'https://images.pexels.com/photos/4464820/pexels-photo-4464820.jpeg?auto=compress&cs=tinysrgb&w=600',
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      category: "women2"
+    },
+    {
+      id: 352,
+      title: "women's shoe",
+      price: 150,
+      image: ' https://images.pexels.com/photos/6046184/pexels-photo-6046184.jpeg?auto=compress&cs=tinysrgb&w=600',
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      category: "women3"
+    },
+    {
+      id: 353,
+      title: "women's shoe",
+      price: 150,
+      image: '  https://images.pexels.com/photos/6046235/pexels-photo-6046235.jpeg?auto=compress&cs=tinysrgb&w=600',
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      category: "women4"
+    },
+    {
+      id: 354,
+      title: "women's shoe",
+      price: 150,
+      image: '  https://images.pexels.com/photos/2965276/pexels-photo-2965276.jpeg?auto=compress&cs=tinysrgb&w=600',
+      description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
+      category: "women5"
+    },
     
     
     
+   
+   
   ];
   
   export default Categories;

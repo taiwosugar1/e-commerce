@@ -1,17 +1,29 @@
 import React from 'react'
-import { Link, useNavigate, useParams, useLocation } from 'react-router-dom'
-import Categories from '../../components/category/Categories'
+import { Link, useNavigate, useParams, useLocation, NavLink } from 'react-router-dom'
+import Categories from '../category/Categories'
 import './SingleProduct.css'
+import { useDispatch } from 'react-redux'
+import { addCart, delCart } from '../../redux/action'
+
 
 const SingleProduct = () => {
   const navigate = useNavigate();
   const { productId } = useParams();
-  const {pathName} = useLocation()
+  useLocation()
+ 
+
+  const dispatch = useDispatch();
+  const addProduct = (product) => {
+      dispatch(addCart(product));
+  }
+  const removeProduct = (product) => {
+      dispatch(delCart(product));
+  }
 
   //get product
   const singleProduct = Categories.find(product =>product.id===parseInt(productId))
 
-const { id,  title, price, image, description} = singleProduct
+const { title, price, image, description} = singleProduct
 
   return (
     <main>
@@ -46,6 +58,15 @@ const { id,  title, price, image, description} = singleProduct
             <button className="btn btn-primary btn-sm" onClick={() =>navigate(-1)}>BACK</button>
             <button className="btn btn-primary btn-sm"  onClick={() =>navigate('/searchbar')}>SEARCH FOR PRODUCTS</button>
             <Link to={"/cart"} className="btn btn-primary btn-sm">Cart</Link>
+
+            <br /> 
+               <hr />
+            <br />
+
+            <button className="btn btn-outline-dark px-4 py-2 ms-2" onClick={()=> addProduct(Categories)}>Add to Cart</button>
+                    <button className="btn btn-outline-dark px-4 py-2 ms-2" onClick={()=> removeProduct(Categories)}>remove from Cart</button>
+                    <NavLink to="/cart" className="btn btn-dark ms-2 px-3">  view Cart</NavLink>
+
           </div>
         </div>
        </div>

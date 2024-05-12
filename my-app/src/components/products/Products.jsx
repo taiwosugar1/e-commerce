@@ -1,9 +1,10 @@
 import React, {useState, useEffect} from 'react';
 import Skeleton from 'react-loading-skeleton';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useNavigate } from 'react-router-dom';
 
 
 const Products = () => {
+    const navigate = useNavigate();
     const [data, setData]= useState([]);
     const [filter, setFilter] = useState(data);
     const [loading, setLoading] = useState(false);
@@ -62,6 +63,7 @@ const Products = () => {
                  <button className="btn btn-outline-dark m-2"  onClick={()=> filterProduct("women's clothing")}> Women's Clothing</button>
                  <button className="btn btn-outline-dark m-2" onClick={()=> filterProduct("jewelery")}> Jewelery</button>
                  <button className="btn btn-outline-dark m-2"  onClick={()=> filterProduct("electronics")}> Electronics</button>
+                 <button className="btn btn-primary btn-sm" onClick={() =>navigate(-1)}>BACK</button>
               </div>
               {filter.map((product)=>{
                 return(

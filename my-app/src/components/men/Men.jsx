@@ -85,7 +85,7 @@ const Men = () => {
                  <div className="size"><p>14</p></div>
             </div>
             <div className="cart">
-              <p>This style is available in whole sizes only. In between sizes? We recommend you <br /> size up.See but <a href="">See Size Chart</a></p>
+              <p>This style is available in whole sizes only. In between sizes? We recommend you <br /> size up.See but <a href="/aboutme">See Size Chart</a></p>
 
             </div>
             <button className='cart-button'>ADD TO CART $78 <span>$98</span></button>

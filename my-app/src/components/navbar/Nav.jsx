@@ -4,11 +4,13 @@ import { IoSearch } from "react-icons/io5";
 import { LuUser } from "react-icons/lu";
 import { LuHelpCircle } from "react-icons/lu";
 import { BsCartCheck } from "react-icons/bs";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { useSelector } from 'react-redux';
 
 // import SearchBar from '../search/SearchBar';
 
-const nav = () => {
+const Nav = () => {
+  const state = useSelector((state)=> state.handleCart)
   return (
     <div  style={{background:"white", width:"100%",position:"sticky", top:"0", zIndex:"999"}}>
      
@@ -23,19 +25,19 @@ const nav = () => {
             <li><a href="/category">SALES</a></li>
           </ul>
           <div className="logo">
-             <a href="https://instagram.com/multibrandprints">multibrand</a>
+             <a href="/aboutme">multibrand</a>
           </div>
           <ul>
-            <li><a href="/all/sustainability">SUSTAINABILITY</a></li>
+            <li><NavLink to="/products">NEW PRODUCTS</NavLink></li>
             <li><a href="/">RETURN</a></li>
             <li><a href="/category">STORES</a></li>
             
           </ul>
           <div className='icons'>
           <Link to={'/SearchBar'} ><IoSearch className='icon'/></Link>
-          <LuUser className='icon'/>
+          <Link to={'/user'}><LuUser className='icon'/></Link>
           <LuHelpCircle className='icon' />
-          <BsCartCheck  className='icon'/>
+          <NavLink to={'/cart'}><BsCartCheck  className='icon'/> {state.length}</NavLink>
           
           </div>
         </nav>
@@ -44,4 +46,4 @@ const nav = () => {
   )
 }
 
-export default nav
+export default Nav

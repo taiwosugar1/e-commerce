@@ -15,9 +15,15 @@ import Women from './components/women/Women';
 import Category from './components/category/Category';
 import NewArrival from './components/all/NewArrival';
 import Footer from './components/navbar/Footer';
-import SingleProduct from './pages/data/SingleProduct';
+
 import About from './components/about/About';
 import Cart from './components/cart/Cart';
+import AboutMe from './components/about/AboutMe';
+import AllDetails from './components/all/AllDetails';
+
+import SingleProduct from './components/products/SingleProduct';
+import Products from './components/products/Products';
+import Product from './components/products/Product';
 
 
 function App() {
@@ -32,11 +38,15 @@ function App() {
           <Route path="/active-shoes" element={<Contact/>}/>
           <Route path="/user" element={<User/>}/>
           <Route path="/category" element={<Category/>}/>
-          <Route path='/products/:productId' element={<SingleProduct/>}/>
+          <Route path="/products/:productId" element={<SingleProduct/>}/>
+          <Route exact path="/products" element={<Products/>}/>
+          <Route exact path="/products/:id" element={<Product/>}/>
           <Route path="/searchbar" element={<SearchBar/>}/>
           <Route path="/men" element={<Men/>}/>
           <Route path="/women" element={<Women/>}/>
           <Route path="/all" element={<All/>}/>
+          <Route path="/alldetails" element={<AllDetails/>}/>
+          <Route path="/aboutme" element={<AboutMe/>}/>
           <Route path="/cart" element={<Cart/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/newArrival" element={<NewArrival/>}/>

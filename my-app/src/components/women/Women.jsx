@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../men/Men.css';
-
 import Categories from '../category/Categories';
 import Details from '../dropdown/Details';
 import Sustainability from '../dropdown/Sustainability';
@@ -21,22 +20,22 @@ const Women = () => {
 
   // Show only the first image as the default
   useState(() => {
-    filterResult('men1');
+    filterResult('women1');
   }, []);
 
   return (
     <>
-      
+     
       <div className='men'>
         <div className="men-shoes">
           {/* Clicking on each image will change the category */}
-          <img src="https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="shoes" onClick={() => filterResult('women1')} />
+          <img src="https://images.pexels.com/photos/6046186/pexels-photo-6046186.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="shoes" onClick={() => filterResult('women1')} />
          
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy7H_15n0KOit04rq1lvMrla8DgSzoaprxpF0b6guY3VuxcWLNDyZA5ZHwnLIiQ3aHkcc&usqp=CAU" alt="" className="shoes" onClick={() => filterResult('women2')} />
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRsnLOM6_cp26CSda782E75847TWygd8ujKe5bw8_PEATKfSfzTbQ0WoxKD5dOIDyzO0c&usqp=CAU" alt="" className="shoes" onClick={() => filterResult('women3')} />
-          <img src="https://images.pexels.com/photos/4241704/pexels-photo-4241704.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="shoes" onClick={() => filterResult('women4')} />
+          <img src="https://images.pexels.com/photos/4464820/pexels-photo-4464820.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="shoes" onClick={() => filterResult('women2')} />
+          <img src="https://images.pexels.com/photos/6046184/pexels-photo-6046184.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="shoes" onClick={() => filterResult('women3')} />
+          <img src="https://images.pexels.com/photos/6046235/pexels-photo-6046235.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="shoes" onClick={() => filterResult('women4')} />
           <img src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="shoes" onClick={() => filterResult('women5')} />
-          <img src="https://media.istockphoto.com/id/1391533360/photo/red-sneakers-shoes.jpg?s=612x612&w=0&k=20&c=FkMZ0ys9M6bpUIRmcwbVsd49F4D6cOvSw8XlokskU48=" alt="" className="shoes" onClick={() => filterResult('women6')} />
+          <img src="https://media.istockphoto.com/id/1391533360/photo/red-sneakers-shoes.jpg?s=612x612&w=0&k=20&c=FkMZ0ys9M6bpUIRmcwbVsd49F4D6cOvSw8XlokskU48=" alt="" className="shoes" onClick={() => filterResult('men6')} />
          
         </div>
         <div className='single-men'>
@@ -68,12 +67,12 @@ const Women = () => {
 
             <p>SALE:</p>
             <div className='round'>
-              <img src="https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" onClick={() => filterResult('women-white')} />
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm8W12GtTk4PR8EVMhXvs7y1JrnhcF40aCWj8lx5NZUQ&s" alt="" onClick={() => filterResult('women-grey')} />
-              <img src="https://i.pinimg.com/236x/09/1d/41/091d41197581931797db31c84a92e136--nike-womens-shoes-nike-shoes-cheap.jpg" alt="" onClick={() => filterResult('women-blue')} />
+              <img src="https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" onClick={() => filterResult('men-white')} />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm8W12GtTk4PR8EVMhXvs7y1JrnhcF40aCWj8lx5NZUQ&s" alt="" onClick={() => filterResult('men-grey')} />
+              <img src="https://i.pinimg.com/236x/09/1d/41/091d41197581931797db31c84a92e136--nike-womens-shoes-nike-shoes-cheap.jpg" alt="" onClick={() => filterResult('men-blue')} />
               <img src="https://i.pinimg.com/736x/cd/16/fb/cd16fb7bde7c4086f2978e4396a4fd16.jpg" alt="" onClick={() => filterResult('men-orange')} />
-              <img src="https://i.pinimg.com/236x/09/1d/41/091d41197581931797db31c84a92e136--nike-womens-shoes-nike-shoes-cheap.jpg" alt="" onClick={() => filterResult('women-blue')} />
-              <img src="https://i.pinimg.com/736x/cd/16/fb/cd16fb7bde7c4086f2978e4396a4fd16.jpg" alt="" onClick={() => filterResult('women-orange')} />
+              <img src="https://i.pinimg.com/236x/09/1d/41/091d41197581931797db31c84a92e136--nike-womens-shoes-nike-shoes-cheap.jpg" alt="" onClick={() => filterResult('men-blue')} />
+              <img src="https://i.pinimg.com/736x/cd/16/fb/cd16fb7bde7c4086f2978e4396a4fd16.jpg" alt="" onClick={() => filterResult('men-orange')} />
             </div>
             <p>SELECT SIZE:</p>
             <div className='round'>
@@ -86,12 +85,12 @@ const Women = () => {
                  <div className="size"><p>14</p></div>
             </div>
             <div className="cart">
-              <p>This style is available in whole sizes only. In between sizes? We recommend you <br /> size up.See but <a href="">See Size Chart</a></p>
+              <p>This style is available in whole sizes only. In between sizes? We recommend you <br /> size up.See but <a href="/aboutme">See Size Chart</a></p>
 
             </div>
             <button className='cart-button'>ADD TO CART $78 <span>$98</span></button>
             <div className="cart2">
-            <p>or 4 interest-free payments of $19.50 with <a href="https://www.instagram.com/multibrandprints">multibrand</a>@+</p>
+            <p>or 4 interest-free payments of $19.50 with <a href="/aboutme">multibrand</a>@+</p>
             </div>
          
           </div>

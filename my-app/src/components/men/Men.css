@@ -1,6 +1,6 @@
 .men{
     display: flex;
-    margin: 20px;
+    margin:40px 20px;
 }
 
 .men-shoes{
@@ -19,6 +19,7 @@
 .single-men{
     display: flex;
 }
+
 .single-men img{
     width: 650px;
     height: 600px;
@@ -29,7 +30,7 @@
     display: flex;
     align-items: start;
     flex-direction: column;
-    line-height: 10px;
+    line-height: 15px;
     margin-left: 50px;
     
 }
