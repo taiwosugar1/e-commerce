@@ -36,7 +36,7 @@ const Nav = () => {
           <div className='icons'>
           <Link to={'/SearchBar'} ><IoSearch className='icon'/></Link>
           <Link to={'/user'}><LuUser className='icon'/></Link>
-          <LuHelpCircle className='icon' />
+          <Link to={"/contract"}><LuHelpCircle className='icon' /></Link>
           <NavLink to={'/cart'}><BsCartCheck  className='icon'/> {state.length}</NavLink>
           
           </div>

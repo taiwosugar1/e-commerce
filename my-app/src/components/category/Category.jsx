@@ -26,7 +26,7 @@ const Category = () => {
         <div className="category-child">
 
                 {/* home button */}
-                <Link to={'/'} ><button className='category-button' style={{background:"blue"}}>  return home</button>
+                <Link to={'/'} ><button className='category-button' style={{background:"blue"}}>  HOME</button>
            </Link>
 
             {/* category button */}

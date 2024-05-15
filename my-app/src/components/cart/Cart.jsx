@@ -39,7 +39,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container my-5" >
       <h2 className='text-center my-4' style={{fontWeight:700, color:"blue", textDecoration:"underline"}}>CART ITEMS</h2>
       {cartItems.map(product => (
         <div key={product.id} className="container px-4 text-center">
@@ -52,6 +52,7 @@ const Cart = () => {
               <p className="lead fw-bold" style={{color:"red"}}>
                 {product.qty} x ${product.price} = $ {product.qty * product.price}
               </p>
+              <hr />
               <button className="btn btn-outline-dark me-4" onClick={() => handleRemove(product)}>
                 <i className='fa fa-minus'></i>
               </button>
@@ -62,6 +63,7 @@ const Cart = () => {
           </div>
         </div>
       ))}
+      <hr />
       <div className="text-center">
         <button className="btn btn-danger mx-3" onClick={handleEmptyCart}>Empty Cart</button>
         <button className="btn btn-success mx-3" onClick={handleTotalPrice}>Buy Now</button>
@@ -70,6 +72,7 @@ const Cart = () => {
       {totalPrice !== 0 && (
         <div className="text-center mt-3">
           <p className="lead fw-bold"><i>Total Price:</i> ${totalPrice}</p>
+          <button className="btn btn-primary mt-n1">Pay</button>
         </div>
       )}
     </div>

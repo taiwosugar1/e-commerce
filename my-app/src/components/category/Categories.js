@@ -1,6 +1,6 @@
 const Categories = [
     {
-      id: 1,
+      id: 221,
       title: "Mens Nike Shoe",
       price: 213,
       image: 'https://images.pexels.com/photos/6748233/pexels-photo-6748233.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
@@ -8,7 +8,7 @@ const Categories = [
       category: "men"
     },
     {
-      id: 2,
+      id: 222,
       title: "Women Nike Shoe",
       price: 113,
       image: 'https://images.pexels.com/photos/11891649/pexels-photo-11891649.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
@@ -16,14 +16,14 @@ const Categories = [
       category: "women"
     },
     {
-      id: 3,
+      id: 223,
       title: "Children Black Shirt",
       price: 103,
       image: "https://images.pexels.com/photos/12714051/pexels-photo-12714051.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
       category: "children"
     },
     {
-      id: 4,
+      id: 224,
       title: "Mens White Nike Shoe",
       price: 150,
       image: 'https://w7.pngwing.com/pngs/855/327/png-transparent-sneakers-shoe-vans-nike-women-s-sports-shoes-purple-blue-white-thumbnail.png',
@@ -31,7 +31,7 @@ const Categories = [
       category:["men"] 
     },
     {
-      id: 5,
+      id: 225,
       title: "Women White Shirt",
       price: 100,
       image: 'https://images.pexels.com/photos/9558752/pexels-photo-9558752.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -39,18 +39,16 @@ const Categories = [
       category: "women"
     },
     {
-      id: 6,
+      id: 226,
       title: "Children White Shirt",
       price: 90,
       image: 'https://images.pexels.com/photos/4256552/pexels-photo-4256552.jpeg?auto=compress&cs=tinysrgb&w=600',
       description: "Lorem ipsum dolor sit, amet consectetur adipisicing.",
       category: "children"
     },
-    // Existing products above
-    
-    // Additional 10 products below
+  
     {
-      id: 7,
+      id: 227,
       title: "Mens Black Shoes",
       price: 250,
       image: 'https://images.pexels.com/photos/292999/pexels-photo-292999.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -58,7 +56,7 @@ const Categories = [
       category: "men"
     },
     {
-      id: 8,
+      id: 228,
       title: "Women Black Shoes",
       price: 180,
       image: 'https://images.pexels.com/photos/8878380/pexels-photo-8878380.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
@@ -66,7 +64,7 @@ const Categories = [
       category: "women"
     },
     {
-      id:  9,
+      id:  229,
       title: "Children Black Shoes",
       price: 120,
       image: 'https://images.pexels.com/photos/11163544/pexels-photo-11163544.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -74,7 +72,7 @@ const Categories = [
       category: "children"
     },
     {
-      id: 10,
+      id: 210,
       title: "Mens Black Shirt",
       price: 213,
       image: 'https://images.pexels.com/photos/9558577/pexels-photo-9558577.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -82,7 +80,7 @@ const Categories = [
       category: "black"
     },
     {
-      id: 11,
+      id: 211,
       title: "Women fashion clothes",
       price: 113,
       image: 'https://images.pexels.com/photos/9397497/pexels-photo-9397497.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
@@ -90,7 +88,7 @@ const Categories = [
       category: ["women"]
     },
     {
-      id: 12,
+      id: 212,
       title: "Girl Child Fashion Clothes",
       price: 103,
       image: 'https://images.pexels.com/photos/2607045/pexels-photo-2607045.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -98,7 +96,7 @@ const Categories = [
       category: "children"
     },
     {
-      id: 13,
+      id: 213,
       title: "Mens suits",
       price: 150,
       image: 'https://images.pexels.com/photos/1321943/pexels-photo-1321943.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -106,7 +104,7 @@ const Categories = [
       category: "men"
     },
     {
-      id: 14,
+      id: 214,
       title: "Women Pink Shirt",
       price: 100,
       image: 'https://images.pexels.com/photos/13069092/pexels-photo-13069092.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load',
@@ -114,7 +112,7 @@ const Categories = [
       category: "women"
     },
     {
-      id: 15,
+      id: 215,
       title: "Children Up and Down Hoodie",
       price: 90,
       image: 'https://images.pexels.com/photos/1765423/pexels-photo-1765423.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -123,7 +121,7 @@ const Categories = [
     },
     
     {
-      id: 16,
+      id: 216,
       title: "Mens Black Shirts",
       price: 250,
       image: 'https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -131,7 +129,7 @@ const Categories = [
       category:  ["men", "black"]
     },
     {
-      id: 17,
+      id: 217,
       title: "Women white hoodie",
       price: 180,
       image: 'https://images.pexels.com/photos/878358/pexels-photo-878358.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -139,7 +137,7 @@ const Categories = [
       category: "white"
     },
     {
-      id: 18,
+      id: 218,
       title: "Children Black Shoes",
       price: 120,
       image: 'https://images.pexels.com/photos/3933888/pexels-photo-3933888.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -147,14 +145,14 @@ const Categories = [
       category: "children"
     },
     { 
-      id: 19,
+      id: 219,
       title: "Mens Black Shirt",
       price: 213,
       image: 'https://images.pexels.com/photos/3662357/pexels-photo-3662357.jpeg?auto=compress&cs=tinysrgb&w=600',
       category: "men"
     },
     {
-      id: 20,
+      id: 220,
       title: "Women up and down",
       price: 113,
       image: 'https://images.pexels.com/photos/1631181/pexels-photo-1631181.jpeg?auto=compress&cs=tinysrgb&w=600',

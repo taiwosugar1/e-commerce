@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link, useNavigate, useParams, useLocation, NavLink } from 'react-router-dom'
-import Categories from '../category/Categories'
+
 import './SingleProduct.css'
 import { useDispatch } from 'react-redux'
 import { addCart, delCart } from '../../redux/action'
+import Categories from '../category/Categories'
 
 
 const SingleProduct = () => {

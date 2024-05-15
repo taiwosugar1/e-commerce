@@ -24,6 +24,7 @@ import AllDetails from './components/all/AllDetails';
 import SingleProduct from './components/products/SingleProduct';
 import Products from './components/products/Products';
 import Product from './components/products/Product';
+import Contract from './components/Contract';
 
 
 function App() {
@@ -38,7 +39,7 @@ function App() {
           <Route path="/active-shoes" element={<Contact/>}/>
           <Route path="/user" element={<User/>}/>
           <Route path="/category" element={<Category/>}/>
-          <Route path="/products/:productId" element={<SingleProduct/>}/>
+          <Route path="/products/:product/id" element={<SingleProduct/>}/>
           <Route exact path="/products" element={<Products/>}/>
           <Route exact path="/products/:id" element={<Product/>}/>
           <Route path="/searchbar" element={<SearchBar/>}/>
@@ -48,10 +49,11 @@ function App() {
           <Route path="/alldetails" element={<AllDetails/>}/>
           <Route path="/aboutme" element={<AboutMe/>}/>
           <Route path="/cart" element={<Cart/>}/>
+          <Route path="/contract" element={<Contract/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/newArrival" element={<NewArrival/>}/>
          </Routes>
-         <Footer/>
+         <Footer />
      </BrowserRouter>
         </div>
               
