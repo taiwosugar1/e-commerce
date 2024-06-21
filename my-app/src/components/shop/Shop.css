@@ -65,3 +65,41 @@ hr{
 .boxes img:hover{
    background: linear-gradient();
 }
+
+/* ------------Tab screen------------ */
+
+@media screen and (max-width: 760px){
+    .shops{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column
+    }
+    .shop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* -------------mobile screen------------- */
+
+@media screen and (max-width: 480px){
+    .shops{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .shop{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+}

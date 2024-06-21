@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const summer = () => {
   return (
-    <div>
+    <div className='summers'>
 
       <div className="summer-head">
         <h1>Summer Hues Unlocked</h1>

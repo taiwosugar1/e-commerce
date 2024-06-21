@@ -21,7 +21,7 @@ const Nav = () => {
        <li><a href="/men">MEN</a></li>
             <li><a href="/women">WOMEN</a></li>
             <li><a href="/all">KIDS</a></li>
-            <li><a href="SearchBar">MARKETS</a></li>
+            <li><a href="/searchbar">MARKETS</a></li>
             <li><a href="/category">SALES</a></li>
           </ul>
           <div className="logo">
@@ -34,7 +34,7 @@ const Nav = () => {
             
           </ul>
           <div className='icons'>
-          <Link to={'/SearchBar'} ><IoSearch className='icon'/></Link>
+          <Link to={'/searchbar'} ><IoSearch className='icon'/></Link>
           <Link to={'/user'}><LuUser className='icon'/></Link>
           <Link to={"/contract"}><LuHelpCircle className='icon' /></Link>
           <NavLink to={'/cart'}><BsCartCheck  className='icon'/> {state.length}</NavLink>

@@ -5,6 +5,7 @@ import Details from '../dropdown/Details';
 import Sustainability from '../dropdown/Sustainability';
 import CareGuild from '../dropdown/Care-guild';
 import ShippingReturn from '../dropdown/Shipping-return'
+import Country from '../country/Country';
 
 
 
@@ -27,6 +28,7 @@ const Men = () => {
     <>
      
       <div className='men'>
+        
         <div className="men-shoes">
           {/* Clicking on each image will change the category */}
           <img src="https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="shoes" onClick={() => filterResult('men1')} />
@@ -91,6 +93,7 @@ const Men = () => {
             <button className='cart-button'>ADD TO CART $78 <span>$98</span></button>
             <div className="cart2">
             <p>or 4 interest-free payments of $19.50 with <a href="http://www.instagram.com/multibrandprints">multibrand</a>@+</p>
+            <Country/>
             </div>
          
           </div>

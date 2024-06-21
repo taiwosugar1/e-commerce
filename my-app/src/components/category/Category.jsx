@@ -57,7 +57,7 @@ const Category = () => {
                      <div className="card-body">
                         <h5>{title}</h5>
                         <p>Price: ${price}</p>
-                        <p>{description}</p>
+                        <p>{description }</p>
                         <a href="/">Buy now</a>
                         <Link to={`/products/${id}`}>DETAILS &#8594;</Link>
                      </div>

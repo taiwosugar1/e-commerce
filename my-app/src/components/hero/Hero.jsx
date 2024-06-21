@@ -21,9 +21,9 @@ const Hero = () => {
                 <h1>New: Tree Runner Go</h1>
                 <h3>Super packable. Ultra wearable. Perfectly travel-able.</h3>
 
-                <div >
+                <div className='hero-button'>
               <Link to={'/men'}><button>SHOP MEN</button></Link>
-       <Link to={'/women'}><button>SHOP WOMEN</button></Link>
+              <Link to={'/women'}><button>SHOP WOMEN</button></Link>
      
                </div>
 

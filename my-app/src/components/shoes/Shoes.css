@@ -3,26 +3,19 @@
     width: 100%;
 }
 
-.shoe-A{
-    display: flex;align-items: center;
-    justify-content: center;
-    height: 100px;
-    width: 100%;
-}
-.shoe-B{
-    display: flex;align-items: center;
-    justify-content: center;
-    height: 300px;
-    width: 100%;
-}
-.shoe-C{
+.shoe-A, .shoe-B, .shoe-C{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100px;
     width: 100%;
 }
-.shoe1, .shoe2, .shoe3{
+.shoe-B{
+    height: 300px;
+}
+
+.shoe1, .shoe2, .shoe3, 
+.shoe7,.shoe8,.shoe9{
    
     border-radius: 10px 0 0 10px;
     height: 100px;
@@ -54,12 +47,6 @@
     background: url("https://images.pexels.com/photos/2300334/pexels-photo-2300334.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
 
-.shoe7,.shoe8,.shoe9{
-    border-radius: 10px 0 0 10px;
-    height: 100px;
-    margin: 2px;
-    width: 33%;
-}
 .shoe7{
     background: url("https://images.pexels.com/photos/6070367/pexels-photo-6070367.jpeg?auto=compress&cs=tinysrgb&w=600");
 }
@@ -68,4 +55,78 @@
 }
 .shoe9{
     background: url("https://images.pexels.com/photos/4046718/pexels-photo-4046718.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+/* ---------tab screen---------- */
+
+@media screen and (max-width: 780px){
+
+    .shoe{
+        background: #333;
+        width: 90%;
+    }
+    .shoes{
+        margin-top: 230px;
+    }
+    .shoe-A, .shoe-B, .shoe-C{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+    }
+    .shoe-B{
+        height: 200px;
+    }
+    .shoe4,.shoe5,.shoe6{
+        width: 30%;
+        border-radius: 10px;
+        height: 200px;
+        margin: 2px;
+    }
+    
+    .shoe1, .shoe2, .shoe3, 
+    .shoe7,.shoe8,.shoe9{
+       
+        border-radius: 10px 0 0 10px;
+        height: 80px;
+        margin: 2px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .shoe{
+        background: #333;
+        width: 90%;
+    }
+    .shoes{
+        margin-top: 230px;
+    }
+    .shoe-A, .shoe-B, .shoe-C{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+    }
+    .shoe-B{
+        height: 200px;
+    }
+    .shoe4,.shoe5,.shoe6{
+        width: 25%;
+        border-radius: 10px;
+        height: 200px;
+        margin: 2px;
+    }
+    
+    .shoe1, .shoe2, .shoe3, 
+    .shoe7,.shoe8,.shoe9{
+       
+        border-radius: 10px 0 0 10px;
+        height: 80px;
+        margin: 2px;
+        width: 25%;
+    }
 }

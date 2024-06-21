@@ -1,12 +1,12 @@
 import React from 'react';
 import './Shop.css'
 import { Link } from 'react-router-dom';
-import Nav from '../navbar/Nav';
+
 
 const Shop = () => {
   return (
-    <div>
-        <Nav/>
+    <div className='shops'>
+        
         <div className="shop-head">
         <h1>From Cardio To Patio</h1>
         <p>All the bouncy active shoes you need to keep in stride with the season.</p>

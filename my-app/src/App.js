@@ -29,7 +29,7 @@ import Contract from './components/Contract';
 
 function App() {
     return(
-        <div >
+        <div className='app'>
 
      <BrowserRouter>
        <Navbar/>
@@ -39,7 +39,7 @@ function App() {
           <Route path="/active-shoes" element={<Contact/>}/>
           <Route path="/user" element={<User/>}/>
           <Route path="/category" element={<Category/>}/>
-          <Route path="/products/:product/id" element={<SingleProduct/>}/>
+          <Route path="/products/:productId" element={<SingleProduct/>}/>
           <Route exact path="/products" element={<Products/>}/>
           <Route exact path="/products/:id" element={<Product/>}/>
           <Route path="/searchbar" element={<SearchBar/>}/>

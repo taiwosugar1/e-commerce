@@ -43,7 +43,7 @@ const Drop6 = () => {
                 </div>
                 <div className='all-details-div'>
               <h3>Where It’s Made:</h3>
-              <p>Vietnam. Learn more about<a href="" >Our Operations</a></p>
+              <p>Vietnam. Learn more about<a href="https://www.instagram.com/multibrandprints" >Our Operations</a></p>
               </div>
           
         </div>

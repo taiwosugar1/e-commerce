@@ -79,3 +79,132 @@ hr{
     width: 15%;
     height: 600px;
 }
+
+/* ----------------Tab screen--------------- */
+
+@media screen and ( max-width: 780px) {
+    .summers{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .summer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .boxs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin:10px;
+        text-align: left;
+        line-height: 20px;
+      
+    }
+    .boxs hr{
+        width: 350px;
+        color: grey;
+        
+    }
+    .boxs h1, p{
+        margin: 10px;
+
+    }
+    .boxs img{
+        width: 90%;
+        height: auto;
+    }
+    .summer-shoe{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        margin-top: 220px;
+    }
+    .summer-shoe img{
+        width: 100%;
+        height: 600px;
+        margin-top: 10px;
+        border-radius: 5px;
+        
+    }
+    .summer-shoe .flower{
+        width: 90%;
+        height: 100px;
+    }
+}
+
+
+/* ----------------mobile screen--------------- */
+
+@media screen and ( max-width: 480px) {
+    .summers{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .summer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .boxs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        height: 550px;
+        margin:12px;
+        text-align: left;
+        line-height: 20px;
+      
+    }
+    .boxs hr{
+        width: 350px;
+        color: grey;
+        
+    }
+    .boxs h1, p{
+        margin: 10px;
+
+    }
+    .boxs img{
+        width: 95%;
+        height: 400px;
+    }
+    .summer-shoe{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: 400px;
+        margin-top: 220px;
+    }
+    .summer-shoe img{
+        width: 80%;
+        height: 400px;
+        margin-top: 10px;
+        border-radius: 5px;
+        
+    }
+    .summer-shoe .flower{
+        width: 90%;
+        height: 100px;
+    }
+}
